@@ -12,8 +12,8 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
+    <%= f.label "Company" %><br>
+    <%= f.select :title, options_for_select([["Drivr", "Drivr"], ["FitBird", "FitBird"], ["FriendBet", "FriendBet"]]) %>
   </div>
   <div class="field">
     <%= f.label :description %><br>
@@ -21,11 +21,11 @@
   </div>
   <div class="field">
     <%= f.label :start_time %><br>
-    <%= f.datetime_select :start_time %>
+    <%= f.datetime_select :start_time, { :minute_step => 15 } %>
   </div>
   <div class="field">
     <%= f.label :end_time %><br>
-    <%= f.datetime_select :end_time %>
+    <%= f.datetime_select :end_time, { :minute_step => 15 } %>
   </div>
   <div class="actions">
     <%= f.submit %>
