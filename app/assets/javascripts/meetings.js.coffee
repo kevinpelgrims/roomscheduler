@@ -13,7 +13,7 @@ $ ->
 
 		axisFormat: 'HH:mm',
 		columnFormat: {
-			week: 'ddd d/M'
+			week: 'ddd D/M'
 		},
 		timeFormat: {
 			agenda: 'HH:mm'
