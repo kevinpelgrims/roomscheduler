@@ -5,5 +5,6 @@
 $ ->
 	$('#calendar').fullCalendar({
 		defaultView: 'agendaWeek',
-		weekends: false
+		weekends: false,
+		events: '/meetings.json'
 	});
