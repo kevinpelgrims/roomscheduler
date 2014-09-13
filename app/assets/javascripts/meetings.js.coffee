@@ -6,7 +6,7 @@ $ ->
 	$('#calendar').fullCalendar({
 		defaultView: 'agendaWeek',
 		weekends: false,
-		firstDay: 1,
+		firstDay: 6,
 		weekNumbers: true,
 		allDayDefault: false,
 		firstHour: 8,
