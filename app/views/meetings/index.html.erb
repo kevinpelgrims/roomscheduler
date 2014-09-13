@@ -1,4 +1,4 @@
-<h1>Listing meetings</h1>
+<h1>Planned meetings</h1>
 
 <table>
   <thead>
@@ -11,7 +11,7 @@
   </thead>
 
   <tbody>
-    <% @meetings.each do |meeting| %>
+    <% @filteredMeetings.each do |meeting| %>
       <tr>
         <td><%= meeting.title %></td>
         <td><%= meeting.description %></td>

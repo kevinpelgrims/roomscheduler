@@ -5,6 +5,7 @@ class MeetingsController < ApplicationController
   # GET /meetings.json
   def index
     @meetings = Meeting.all
+    @filteredMeetings = Meeting.where('start_time >= ?', Date.today)
   end
 
   # GET /meetings/1
