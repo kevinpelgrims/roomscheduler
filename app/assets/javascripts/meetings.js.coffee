@@ -6,6 +6,18 @@ $ ->
 	$('#calendar').fullCalendar({
 		defaultView: 'agendaWeek',
 		weekends: false,
+		firstDay: 1,
+		weekNumbers: true,
 		allDayDefault: false,
+		firstHour: 8,
+
+		axisFormat: 'HH:mm',
+		columnFormat: {
+			week: 'ddd d/M'
+		},
+		timeFormat: {
+			agenda: 'HH:mm{ - HH:mm}'
+		},
+
 		events: '/meetings.json'
 	});
