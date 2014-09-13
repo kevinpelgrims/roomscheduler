@@ -16,7 +16,7 @@ $ ->
 			week: 'ddd d/M'
 		},
 		timeFormat: {
-			agenda: 'HH:mm{ - HH:mm}'
+			agenda: 'HH:mm'
 		},
 
 		events: '/meetings.json'
