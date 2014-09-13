@@ -41,3 +41,5 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'momentjs-rails'
+
+ruby '2.0.0'
