@@ -1,28 +1,9 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is just a simple little project to play around with Rails 4 (using Ruby 2.0.0).
 
-Things you may want to cover:
+The main technical goal was to get to know Rails 4 and how it generates JSON.
+The calendar control used consumes JSON directly, which is one of the reasons for choosing it (to keep things simple).
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+The practical goal was to manage a shared meeting room in the office.
+There was no system in place and people would never know if the meeting room was busy or not and when it would become available.
